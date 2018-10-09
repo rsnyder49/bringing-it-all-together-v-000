@@ -29,7 +29,9 @@ class Dog
     if dog.id 
       self.update 
     else
-      
+      sql = <<-SQL
+        
+      SQL
     end 
   end 
   
