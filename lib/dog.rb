@@ -7,4 +7,11 @@ class Dog
     @id = id 
   end 
   
+  def self.create_table
+    sql = <<-SQL
+      CREATE TABLE IF NOT EXIST dogs 
+    SQL
+    DB[:conn].execute(sql)
+  end 
+  
 end 
