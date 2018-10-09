@@ -70,6 +70,8 @@ class Dog
     dog = self.new(name: row[1], breed: row[2], id: row[0])
   end
   
+  def 
+  
 end 
 
 
