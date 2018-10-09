@@ -76,6 +76,13 @@ class Dog
     dog = self.new(name: result[1], breed: result[2], id: result[0])
   end
   
+  def update 
+    sql = <<-SQL
+      UPDATE dogs 
+      WHERE
+    SQL
+  end 
+  
 end 
 
 
