@@ -51,7 +51,7 @@ class Dog
       FROM dogs 
       WHERE id = ?
     SQL
-    result = DB[:conn].execute
+    result = DB[:conn].execute(sql, id)[0]
   end 
   
 end 
