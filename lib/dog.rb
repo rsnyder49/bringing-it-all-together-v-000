@@ -61,7 +61,7 @@ class Dog
       dog_data = dog[0]
       dog = self.new(dog_data[1], dog_data[2], dog_data[0])
     else 
-      
+      dog = 
     end 
   end 
   
